@@ -5,10 +5,19 @@
 }
 
 header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: chocolate;
-    color: white;
     text-align: center;
-    padding: 50px 25px;
+    padding:25px;
+    color: white;
+}
+
+header span a i {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
 }
 
 .wrapper {
