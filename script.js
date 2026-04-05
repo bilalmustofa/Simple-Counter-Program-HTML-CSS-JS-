@@ -6,20 +6,22 @@ let decreaseBtn = document.getElementById("decreaseBtn");
 let changeBy = document.getElementById("changeBy");
 let count = 0;
 
-
-increaseBtn.onclick = function() {
-    const changeByValue = parseInt(changeBy.value);
+// increasing function
+IncreaseBtn.onclick = function() {
+    const changeByValue = parseInt(changeBy.value); // change string in to number
     count = count + changeByValue;
     counter.textContent = count;
 }
 
+// Reset function
 resetBtn.onclick = function() {
     count = 0;
     counter.textContent = count;
 }
 
+// Dncreasing function
 decreaseBtn.onclick = function() {
-    const changeByValue = parseInt(changeBy.value);
+    const changeByValue = parseInt(changeBy.value); // change string in to number 
     count = count - changeByValue;
     counter.textContent = count;
 }

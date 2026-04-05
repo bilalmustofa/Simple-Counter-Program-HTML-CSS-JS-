@@ -12,6 +12,7 @@ header{
     text-align: center;
     padding:25px;
     color: white;
+    border-radius: 10px;
 }
 
 header span a i {
@@ -21,7 +22,14 @@ header span a i {
 }
 
 .wrapper {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    background-color: aliceblue;
+    border: 2px solid gray;
+    margin: 100px auto;
+    padding: 15px 0;
+    max-width: 400px;
 }
 
 #counter {
