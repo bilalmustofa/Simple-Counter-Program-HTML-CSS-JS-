@@ -6,8 +6,8 @@ let decreaseBtn = document.getElementById("decreaseBtn");
 let changeBy = document.getElementById("changeBy");
 let count = 0;
 
-// increasing function
-IncreaseBtn.onclick = function() {
+// Increasing function
+increaseBtn.onclick = function() {
     const changeByValue = parseInt(changeBy.value); // change string in to number
     count = count + changeByValue;
     counter.textContent = count;
@@ -19,7 +19,7 @@ resetBtn.onclick = function() {
     counter.textContent = count;
 }
 
-// Dncreasing function
+// Decreasing function
 decreaseBtn.onclick = function() {
     const changeByValue = parseInt(changeBy.value); // change string in to number 
     count = count - changeByValue;
