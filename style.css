@@ -25,7 +25,7 @@ header span a i {
 }
 
 #counter {
-    font-size: 70px;
+    font-size: 60px;
     margin: 15px;
 }
 
@@ -34,7 +34,6 @@ header span a i {
     font-weight: bold;
     color: white;
     padding: 5px 10px;
-    margin: 5px;
     border: none;
     border-radius: 10px;
     background-color: chocolate;
@@ -44,4 +43,17 @@ header span a i {
 
 .btns:hover {
     background-color: rgb(245, 105, 5);
+}
+
+input {
+    height: 20px;
+    margin: 20px 10px;
+    width: 60px;
+}
+
+label {
+    background-color: chocolate;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
