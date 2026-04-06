@@ -25,3 +25,16 @@ decreaseBtn.onclick = function() {
     count = count - changeByValue;
     counter.textContent = count;
 }
+
+// Dark Mode
+const darkModeCheckbox = document.getElementById("darkModeCheckbox");
+darkModeCheckbox.addEventListener("change", () => {
+    if(darkModeCheckbox.checked){
+        document.body.style.backgroundColor = "rgb(39, 41, 45)";
+        document.getElementById("counterBox").classList.add("dark");
+    } else {
+        document.body.style.backgroundColor = "";
+        document.getElementById("counterBox").classList.remove("dark");
+    }
+});
+
