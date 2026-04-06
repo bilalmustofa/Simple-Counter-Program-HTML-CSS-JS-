@@ -6,6 +6,11 @@ This project allows users to increase, decrease, and reset a counter value in re
 Live Demo
 👉 https://bilalmustofa.github.io/Simple-Counter-Program-HTML-CSS-JS-
 
+Screenshot
+
+![To-Do App Screenshot](./image/Screenshot%20.png)
+![To-Do App Screenshot](./image/Screenshot.png)
+
 Features
 * ➕ Increment counter
 * ➖ Decrement counter
