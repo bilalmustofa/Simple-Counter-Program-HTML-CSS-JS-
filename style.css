@@ -65,3 +65,16 @@ label {
     padding: 5px;
     border-radius: 5px;
 }
+
+.dark-mode-box {
+    display: flex;
+    justify-content: center;
+}
+.dark-mode-box label {
+   margin: 10px;
+   font-size: 15px;
+}
+.dark-mode-box input {
+   margin: 10px;
+   width: 20px;
+}

@@ -28,7 +28,6 @@ Simple-Counter-Program-HTML-CSS-JS-/
 
 Future Improvements
 * 🌙 Add dark/light mode
-* 🔊 Add sound effects
 
 
 
