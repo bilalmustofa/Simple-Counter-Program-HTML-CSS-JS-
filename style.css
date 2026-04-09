@@ -26,10 +26,11 @@ header span a i {
     flex-direction: column;
     text-align: center;
     background-color: aliceblue;
-    border: 2px solid gray;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
     margin: 100px auto;
-    padding: 15px 0;
+    padding: 15px;
     max-width: 400px;
+    border-radius: 10px;
 }
 
 #counter {
