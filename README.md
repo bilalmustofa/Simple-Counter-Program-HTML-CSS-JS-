@@ -8,31 +8,14 @@ Live Demo
 
 Screenshot
 
-![To-Do App Screenshot](./image/Screenshot%20.png)
+![To-Do App Screenshot](./image/Screenshot%203.png.png)
 ![To-Do App Screenshot](./image/Screenshot.png)
 
 Features
-* ➕ Increment counter
-* ➖ Decrement counter
-* 🔄 Reset counter
-* 🎯 Beginner-friendly project
-
-Technologies Used
-* HTML5
-* CSS3
-* JavaScript (ES6)
-
-Project Structure
-
-Simple-Counter-Program-HTML-CSS-JS-/
-│
-├── index.html
-├── style.css
-└── script.js
-
-Acknowledgment
+*  Increment counter
+*  Decrement counter
+*  Reset counter
 
 Thanks for checking out this project!
 Feel free to give feedback or suggestions.
 
-If you like this project, don’t forget to **star the repository**!
