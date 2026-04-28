@@ -3,7 +3,9 @@
     margin: 0;
     font-family:sans-serif;
 }
-
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
 header{
     display: flex;
     justify-content: space-around;
@@ -12,7 +14,6 @@ header{
     text-align: center;
     padding:25px;
     color: white;
-    border-radius: 10px;
 }
 
 header span a i {
@@ -31,6 +32,7 @@ header span a i {
     padding: 15px;
     max-width: 400px;
     border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 #counter {
@@ -82,7 +84,12 @@ label {
 
 /* // dark mode style */
 
-body .dark  {
-    background-color:rgb(39, 41, 45);
-    color:rgb(236, 236, 236);
+body.dark {
+    background-color: rgb(39, 41, 45);
+    color: white;
+}
+
+#counterBox.dark {
+    background-color: #222;
+    color: white;
 }
